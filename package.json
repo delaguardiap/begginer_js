@@ -1,0 +1,11 @@
+{
+  "name": "beginner_javascript",
+  "version": "1.0.0",
+  "description": "A project to showcase what javascript does on the front end",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dankified",
+  "license": "ISC"
+}
