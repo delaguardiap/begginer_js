@@ -1,31 +1,44 @@
-<!doctype html>
+    <!doctype html>
 
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Crypto Investor</title>
+    <title>Just an App</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
     <header>
-        <h1>Crypto Investor</h1>
-        <h3>Crypto companion for the smart investor</h3>
+        <h1>Beginner App</h1>
+        <h3>Just An App</h3>
     </header>
-    <script src="scripts.js"></script>
     <div class="main-content">
         <div class="investments">
+            <div class="investments_new">
+                <p class="investments_new_text">New investment</p>
+                <input class="investments_new_name"type="text" placeholder="investment">
+                <input class="investments_new_amount" type="number" placeholder="amount">
+                <button class="investments_new_button">Add</button>
+            </div>
+            <ul class="investments_list">
+                
+            </ul>
         </div>
 
         <div class="news-aggregator">
         </div>
     </div>
-    <!-- <div class="clearfix"></div> -->
 
     <footer>
 
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>  
+    <script src="scripts.js"></script>
 </body>
 
 </html>

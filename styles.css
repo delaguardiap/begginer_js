@@ -52,6 +52,44 @@ header h3 {
     background-color: white;
 }
 
+.investments_new {
+    height: 7%;
+    border: 2px solid black;
+}
+
+.investments_new_text {
+    float: left;
+    width: 25%;
+    font-size: 1.5rem;
+    padding-left: 1%;
+    padding-top: .5%;
+}
+
+.investments_new_button {
+    float: right;
+    width: 10%;
+    font-size: 1rem;
+    margin-right: 3%;
+    margin-top: 1.5%;
+}
+
+.investments_new_name {
+    float: left;
+    width: 20%;
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+
+.investments_new_amount {
+    float: left;
+    width: 20%;
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+
+
 .news-aggregator {
     height: 80vh;
     width: 15%;
@@ -64,4 +102,16 @@ footer {
     border-top: 2px solid black;
     height: 10vh;
     margin-top: -2px;
+}
+
+.investments_list {
+    
+}
+
+.investments_list_element {
+    float: left;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    list-style: none;
+    font-size: 1.5em;
 }
